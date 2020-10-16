@@ -3,7 +3,7 @@ class Nodo(object):
         self.dato = dato
         self.siguiente = siguiente
     def __str__(self):
-        return "\n>>>Dato: "+str(self.dato)
+        return "\n>>> "+str(self.dato)
 
 class ListaEnlazada(object):
     def __init__(self):
@@ -102,6 +102,7 @@ class ListaEnlazada(object):
     def estaVacio(self):
         return True if (self.len == 0) else False
 
+"""
 lista = ListaEnlazada()
 
 
@@ -113,10 +114,4 @@ lista.insertar(40, 3)
 lista.insertar(70)
 lista.insertar(60, 5)
 lista.insertar(0, 0)
-print(lista.remover(4))
-print(lista.remover())
-
-
-
-print(len(lista))
-print(lista)
+"""
