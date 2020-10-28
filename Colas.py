@@ -51,7 +51,23 @@ class Cola:
         return str(self.lista)
     def __len__(self):
         return self.lista.len
-    
+
+
+
+
+cola = Cola()
+cola.encolarEnOrden(10)
+cola.encolarEnOrden(20)
+cola.encolarEnOrden(17)
+
+cola.encolarEnOrden(15)
+cola.encolarEnOrden(18)
+cola.encolarEnOrden(17)
+
+
+print(cola)
+
+"""
 cola = Cola()
 n = int(input())
 for x in range(n):
@@ -61,7 +77,7 @@ print(cola)
 
 print(cola.datos())
 
-"""
+
 print("La cola esta vacía")
 
 print("Ingresando")
